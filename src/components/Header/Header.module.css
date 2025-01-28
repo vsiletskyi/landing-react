@@ -10,7 +10,7 @@
     gap: 98px;
 }
 
-.header__buttons {
+.buttons {
     display: flex;
     gap: 16px;
 }
