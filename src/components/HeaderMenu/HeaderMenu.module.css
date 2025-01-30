@@ -1,10 +1,10 @@
-.header__menu {
+.menu {
     list-style: none;
     display: flex;
     gap: 36px;
 }
 
-.menu__item  a{
+.item  a{
     text-decoration: none;
     font-weight: 500;
     color: #525252;
