@@ -1,7 +1,8 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 112px;
+    padding: 22px 112px;
+    margin-bottom: 16px;
 }
 
 .container {
