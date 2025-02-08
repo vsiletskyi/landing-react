@@ -9,6 +9,7 @@ const Button = (props) => {
             {
             [styles.light]: props.variant === 'light',
             [styles.dark]: props.variant === 'dark',
+            [styles.big]: props.type === 'big',
             [styles.disabled]: props.isDisabled,
             },
             props.className 
