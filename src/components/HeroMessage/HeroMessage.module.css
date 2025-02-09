@@ -1,0 +1,26 @@
+.heroMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 60px;
+    color: #171717;
+    margin-bottom: 24px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #525252;
+    margin-bottom: 64px;
+}
+
+.buttons {
+    display: flex;
+    gap: 32px;
+}
