@@ -1,10 +1,10 @@
+import Marquee from "react-fast-marquee"
 import logo1 from './../../assets/img/Fictional-company-logo-1.svg'
 import logo2 from './../../assets/img/Fictional-company-logo-2.svg'
 import logo3 from './../../assets/img/Fictional-company-logo-3.svg'
 import logo4 from './../../assets/img/Fictional-company-logo-4.svg'
 import logo5 from './../../assets/img/Fictional-company-logo-5.svg'
 import logo6 from './../../assets/img/Fictional-company-logo-6.svg'
-import Marquee from "react-fast-marquee"
 
 import styles from './Social.module.css'
 
