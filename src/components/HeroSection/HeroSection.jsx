@@ -1,5 +1,6 @@
 import HeroImage from '../HeroImage/HeroImage'
 import HeroMessage from '../HeroMessage/HeroMessage'
+
 import styles from './HeroSection.module.css'
 
 const HeroSection = () => {
