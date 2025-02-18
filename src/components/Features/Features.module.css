@@ -37,23 +37,3 @@ h3 {
     gap: 32px;
     row-gap: 48px;
 }
-
-.featuresItem {
-    width: calc(33.33% - 21.33px);
-    text-align: center;
-}
-
-.featuresTitle {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-    color: #171717;
-    margin: 20px 0 8px 0;
-}
-
-.featuresText {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #525252;
-}
