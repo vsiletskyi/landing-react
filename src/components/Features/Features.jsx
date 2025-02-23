@@ -1,4 +1,4 @@
-import FeaturesItem from '../FeaturesItem/FeaturesItem'
+import FeaturesList from '../FeaturesList/FeaturesList'
 
 import styles from './Features.module.css'
 
@@ -11,7 +11,7 @@ const Features = () => {
           <p className={styles.textBottom}>In a world where storytelling constantly evolves, we lead with groundbreaking images designed for your presentation excellence.</p>
         </div>
         <div className={styles.features}>
-            <FeaturesItem/>
+            <FeaturesList/>
         </div>
     </div>
   )
