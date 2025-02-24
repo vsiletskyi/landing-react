@@ -1,0 +1,28 @@
+.featuresItem {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.featuresItem:last-child {
+    margin-bottom: 0;
+}
+
+.textWrapp {
+    padding: 10px 0;
+}
+
+.featuresTitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #171717;
+    margin-bottom: 8px;
+}
+
+.featuresText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #525252;
+}
