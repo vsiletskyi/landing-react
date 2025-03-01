@@ -1,0 +1,39 @@
+.featuresItem {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 16px;
+    flex: 1 1 30%;
+
+    &Left {
+        text-align: left;
+        flex-direction: row;
+    }
+
+    &Right {
+        text-align: right;
+        flex-direction: row-reverse;
+    }
+
+    &Top {
+        text-align: center;
+        flex-direction: column;
+        gap: 0px;
+    }
+    
+}
+
+.featuresTitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #171717;
+    margin: 20px 0 8px 0;
+}
+
+.featuresText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #525252;
+}

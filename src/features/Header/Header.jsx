@@ -1,6 +1,6 @@
 import logo from '../../assets/img/Logo.png'
-import HeaderMenu from '../HeaderMenu/HeaderMenu'
-import Button from '../Button/Button'
+import HeaderMenu from './components/HeaderMenu/HeaderMenu'
+import Button from '../../components/shared/Button/Button'
 
 import styles from './Header.module.css'
 

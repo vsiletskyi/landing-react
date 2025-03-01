@@ -1,0 +1,16 @@
+.featuresWrapp {
+    display: flex;
+    gap: 32px;
+}
+
+.featuresImg img{
+    border-radius: 8px;
+}
+
+.featuresWrappLeft {
+    flex-direction: row;
+}
+
+.featuresWrappRight {
+    flex-direction: row-reverse;
+}

@@ -1,5 +1,5 @@
-import HeroImage from '../HeroImage/HeroImage'
-import HeroMessage from '../HeroMessage/HeroMessage'
+import HeroImage from './components/HeroImage/HeroImage'
+import HeroMessage from './components/HeroMessage/HeroMessage'
 
 import styles from './HeroSection.module.css'
 

@@ -1,4 +1,4 @@
-import Button from '../Button/Button'
+import Button from '../../../../components/shared/Button/Button'
 import styles from './HeroMessage.module.css'
 
 const HeroMessage = () => {
