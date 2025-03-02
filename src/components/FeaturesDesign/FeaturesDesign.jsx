@@ -1,19 +1,18 @@
-import FeaturesDesignList from '../FeaturesDesignList/FeaturesDesignList'
-import img from './../../assets/img/unsplash_rAtzDB6hWrU.svg'
+import PropTypes from 'prop-types'
 
 import styles from './FeaturesDesign.module.css'
 
-const FeaturesDesign = () => {
+const FeaturesDesign = ({textTop, tittle, textBottom, img, reverseOrder, children}) => {
   return (
     <div className={styles.container}>
         <div className={styles.header}>
-            <p className={styles.textTop}>High quality images</p>
-            <h3>For designers, by designers</h3>
-            <p className={styles.textBottom}>Unleash boundless creativity with a large repository of images optimized for designers</p>
+        <p className={styles.textTop}>{textTop}</p>
+        <h3>{tittle}</h3>
+        <p className={styles.textBottom}>{textBottom}</p>
         </div>
-        <div className={styles.featuresWrapp}>
+        <div className={`${styles.featuresWrapp} ${reverseOrder ? styles.reverse : ''}`}>
             <div className={styles.features}>
-                  <FeaturesDesignList />
+                {children}
             </div>
             <div className={styles.featuresImg}>
                 <img src={img} alt="img" />
@@ -21,6 +20,15 @@ const FeaturesDesign = () => {
         </div>  
     </div>
   )
+}
+
+FeaturesDesign.propTypes = {
+  textTop: PropTypes.string,
+  tittle: PropTypes.string,
+  textBottom: PropTypes.string,
+  img: PropTypes.object,
+  reverseOrder: PropTypes.bool,
+  children: PropTypes.object
 }
 
 export default FeaturesDesign

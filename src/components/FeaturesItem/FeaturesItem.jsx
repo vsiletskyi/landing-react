@@ -1,18 +1,22 @@
 import PropTypes from 'prop-types'
+import classNames from 'classnames';
 
 import styles from './FeaturesItem.module.css'
 
-const FeaturesItem = ({ item, featuresItemStyles}) => {
-    const itemStyles = featuresItemStyles || styles;
+const FeaturesItem = ({ item, variant}) => {
+  
+  const featureItemClass = classNames(styles.featuresItem, {
+    [styles[variant]]: variant,
+  });
 
     return (
-      <div className={itemStyles.featuresItem}>
-        <div className={itemStyles.imgWrapp}>
+      <div className={featureItemClass}>
+        <div className={styles.imgWrapp}>
             <img src={item.img.src} alt={item.img.alt} />
         </div>
-        <div className={itemStyles.textWrapp}>
-            <h4 className={itemStyles.featuresTitle}>{item.title}</h4>
-            <p className={itemStyles.featuresText}>{item.text}</p>
+        <div className={styles.textWrapp}>
+            <h4 className={styles.featuresTitle}>{item.title}</h4>
+            <p className={styles.featuresText}>{item.text}</p>
         </div>          
       </div>
     )
@@ -20,7 +24,7 @@ const FeaturesItem = ({ item, featuresItemStyles}) => {
 
 FeaturesItem.propTypes = {
     item: PropTypes.object,
-    featuresItemStyles: PropTypes.object
+    variant: PropTypes.object
   }
   
 export default FeaturesItem
