@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import classNames from 'classnames';
+import classNames from 'classnames'
 
 import styles from './FeaturesItem.module.css'
 
@@ -23,8 +23,8 @@ const FeaturesItem = ({ item, variant}) => {
 }
 
 FeaturesItem.propTypes = {
-    item: PropTypes.object,
-    variant: PropTypes.object
-  }
+  item: PropTypes.object,
+  variant: PropTypes.string
+}
   
 export default FeaturesItem

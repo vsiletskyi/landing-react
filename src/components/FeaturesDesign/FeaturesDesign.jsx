@@ -26,7 +26,7 @@ FeaturesDesign.propTypes = {
   textTop: PropTypes.string,
   tittle: PropTypes.string,
   textBottom: PropTypes.string,
-  img: PropTypes.object,
+  img: PropTypes.string,
   reverseOrder: PropTypes.bool,
   children: PropTypes.object
 }
