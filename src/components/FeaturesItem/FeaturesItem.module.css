@@ -1,6 +1,6 @@
 .featuresItem {
     text-align: center;
-    flex: 1 1 30%;
+    flex: 1 1 30%;    
 }
 
 .featuresTitle {
@@ -17,3 +17,29 @@
     line-height: 24px;
     color: #525252;
 }
+
+.featuresItem.row {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.featuresItem.row:last-child {
+    margin-bottom: 0;
+}
+
+.featuresItem.row .textWrapp {
+    padding: 10px 0;
+}
+
+.featuresItem.row .featuresTitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #171717;
+    margin: 0 0 8px 0;
+}
+
+
