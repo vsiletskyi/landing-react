@@ -3,11 +3,11 @@ import FeaturesItem from '../FeaturesItem/FeaturesItem'
 
 const FeaturesDesignList = ({data}) => {
   return (
-    <>
+    <div>
         {data.map((item, i) => {
             return <FeaturesItem key={i} item={item} variant='row' />
         })}
-    </>
+    </div>
   )
 }
 
