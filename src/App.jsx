@@ -1,7 +1,9 @@
 import Header from './components/Header/Header'
 import HeroSection from './components/HeroSection/HeroSection'
 import Social from './components/Social/Social'
-import FeaturesMain from './components/FeaturesMain/FeaturesMain'
+import Features from './components/Features/Features'
+import FeaturesDesign from './components/FeaturesDesign/FeaturesDesign'
+import FeaturesConvenience from './components/FeaturesConvenience/FeaturesConvenience'
 
 import './App.css'
 
@@ -12,7 +14,9 @@ function App() {
       <div className='content'>
         <HeroSection />
         <Social />
-        <FeaturesMain />
+        <Features />
+        <FeaturesDesign />
+        <FeaturesConvenience />  
       </div>
     </div>
   )
