@@ -1,0 +1,45 @@
+.container {
+    padding: 96px;
+}
+
+.header {
+    text-align: center;
+    padding: 0 160px;
+    margin-bottom: 64px;
+}
+
+.textTop {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4338CA;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    color: #171717;
+    margin-bottom: 20px;
+}
+
+.textBottom {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #525252;
+}
+
+.featuresWrapp {
+    display: flex;
+    gap: 32px;
+}
+
+.featuresImg img{
+    border-radius: 8px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
