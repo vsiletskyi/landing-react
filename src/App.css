@@ -16,4 +16,7 @@
   border-radius: 6px;
 }
 
+button.btnBig {
+  width: 100%;
+}
 

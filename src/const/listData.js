@@ -40,3 +40,26 @@ export const featuresList2 = [
         text: "Our straightforward, royalty-free licensing means your chosen images are yours to innovate with, without the hassle of negotiating usage rights for every new project."
     },
 ]
+
+export const cardList = [
+    'Standard quality images',
+    'Limited to personal use',
+    'Email support'
+]
+
+export const cardList2 = [
+    'Expanded library with more diverse abstract images',
+    'High-resolution images available',
+    'Suitable for commercial use',
+    'Priority email support',
+    'Advanced analytics'
+]
+
+export const cardList3 = [
+    'Full access to the entire image library, including exclusive content',
+    'Highest quality images, including premium collections',
+    'Commercial and resale rights',
+    'Dedicated customer support line',
+    '24/7 support response time',
+    'Advanced analytics and insights'
+]
