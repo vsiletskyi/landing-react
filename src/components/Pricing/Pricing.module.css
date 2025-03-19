@@ -1,0 +1,16 @@
+.container {
+    padding: 96px;
+}
+
+.btnsWrap {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+
+.cardsWrap {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}

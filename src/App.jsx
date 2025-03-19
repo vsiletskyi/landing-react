@@ -4,6 +4,7 @@ import Social from './components/Social/Social'
 import Features from './components/Features/Features'
 import FeaturesDesign from './components/FeaturesDesign/FeaturesDesign'
 import FeaturesConvenience from './components/FeaturesConvenience/FeaturesConvenience'
+import Pricing from './components/Pricing/Pricing'
 
 import './App.css'
 
@@ -17,6 +18,7 @@ function App() {
         <Features />
         <FeaturesDesign />
         <FeaturesConvenience />  
+        <Pricing/>
       </div>
     </div>
   )
