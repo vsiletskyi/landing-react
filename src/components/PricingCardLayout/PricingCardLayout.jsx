@@ -29,8 +29,8 @@ const PricingCardLayout = ({title, description, price, cardList, mostPopular}) =
         </ul>
         <div className={styles.btnWrap}>
             {mostPopular ? 
-                <Button text="Buy now" variant="dark" className="btnBig"/>
-                : <Button text="Buy now" variant="light" className="btnBig"/>
+                <Button text="Buy now" variant="dark" className="big"/>
+                : <Button text="Buy now" variant="light" className="big"/>
             }            
         </div>
       </div>
