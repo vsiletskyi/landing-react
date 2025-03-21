@@ -7,6 +7,7 @@ import FeaturesConvenience from './components/FeaturesConvenience/FeaturesConven
 import Pricing from './components/Pricing/Pricing'
 
 import './App.css'
+import Questions from './components/Questions/Questions'
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         <Features />
         <FeaturesDesign />
         <FeaturesConvenience />  
-        <Pricing/>
+        <Pricing />
+        <Questions />
       </div>
     </div>
   )
