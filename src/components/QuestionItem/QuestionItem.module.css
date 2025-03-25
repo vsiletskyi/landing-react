@@ -31,4 +31,10 @@
 
 .imgWrap img {
     cursor: pointer;
+    height: 20px;
+}
+
+.imgPlus {
+    width: 20px;
+    height: 20px;
 }
