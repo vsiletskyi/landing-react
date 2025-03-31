@@ -6,7 +6,7 @@ import styles from './Questions.module.css'
 
 const Questions = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='about'>
       <FeaturesTitle
         tittle='Frequently asked questions'
         textBottom='Choose any questions you need'

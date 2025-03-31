@@ -1,0 +1,9 @@
+.container {
+    padding: 96px;
+    display: flex;
+    gap: 32px;
+}
+
+.subscribeWrap {
+    padding: 74px 0;
+}

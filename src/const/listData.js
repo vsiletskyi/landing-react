@@ -4,6 +4,14 @@ import logo9 from '../assets/img/Thumbnail Icons 9.svg'
 import logo10 from '../assets/img/Thumbnail Icons 10.svg'
 import logo11 from '../assets/img/Thumbnail Icons 11.svg'
 import logo12 from '../assets/img/Thumbnail Icons 12.svg'
+import logo13 from '../assets/img/youtube-line.svg'
+import logo14 from '../assets/img/instagram-line.svg'
+import logo15 from '../assets/img/facebook-box-line.svg'
+import logo16 from '../assets/img/github-line.svg'
+import logo17 from '../assets/img/twitter-x-line.svg'
+import contactImg1 from '../assets/img/contact1.svg'
+import contactImg2 from '../assets/img/contact2.svg'
+import contactImg3 from '../assets/img/contact3.svg'
 
 export const featuresList = [
     {
@@ -64,6 +72,12 @@ export const cardList3 = [
     'Advanced analytics and insights'
 ]
 
+export const cardList4 = [
+    'Exclusive access to new abstract images and collections',
+    'Unlock special promotions only for subscribers',
+    'Regular doses of artistic inspiration'
+]
+
 export const questionsList = [
     {
         title: 'What types of images are available on your platform?',
@@ -89,4 +103,42 @@ export const questionsList = [
         title: 'How frequently do you update your image collection?',
         description: 'We regularly update our image collection with fresh and captivating content to keep our users inspired and engaged. New images are added consistently to ensure there\'s always something new to discover on our platform.'
     }
+]
+
+export const contactList = [
+    {
+        img: { src: contactImg1, alt: 'img' },
+        desc: '123 Maple Street, Springfield, IL, USA'
+    },
+    {
+        img: { src: contactImg2, alt: 'img' },
+        desc: '+1 (650) 555-0198'
+    },
+    {
+        img: { src: contactImg3, alt: 'img' },
+        desc: 'hello@abstractly.com'
+    }
+]
+
+export const headerMenuList = [
+    { label: 'Home', href: '#home' },
+    { label: 'Features', href: '#features' },
+    { label: 'Pricing', href: '#pricing' },
+    { label: 'About us', href: '#about' },
+    { label: 'Contact', href: '#contact' }
+]
+
+export const footerMenuList = [
+    { label: 'Features', href: '#features' },
+    { label: 'Pricing', href: '#pricing' },
+    { label: 'About us', href: '#about' },
+    { label: 'Contact', href: '#contact' }
+]
+
+export const socialList = [
+    { src: logo13, alt: 'youtube' },
+    { src: logo14, alt: 'instagram' },
+    { src: logo15, alt: 'facebook' },
+    { src: logo16, alt: 'github' },
+    { src: logo17, alt: 'twitter' },
 ]

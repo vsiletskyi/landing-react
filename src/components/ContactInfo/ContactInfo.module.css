@@ -1,0 +1,32 @@
+.title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 60px;
+    color: #171717;
+    margin-bottom: 20px;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #525252;
+    margin-bottom: 48px;
+}
+
+.contactList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contactList li{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #525252;
+}

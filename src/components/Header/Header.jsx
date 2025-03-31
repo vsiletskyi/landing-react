@@ -1,5 +1,6 @@
 import logo from '../../assets/img/Logo.png'
-import HeaderMenu from '../HeaderMenu/HeaderMenu'
+import { headerMenuList } from '../../const/listData'
+import Menu from '../Menu/Menu'
 import Button from '../Button/Button'
 
 import styles from './Header.module.css'
@@ -13,7 +14,7 @@ const Header = () => {
               <img src={logo} alt="Logo" />
             </div>
           </a>
-          <HeaderMenu/>
+          <Menu menuList={headerMenuList} headerMenu/>
         </div>
         <div className={styles.buttons}>
           <Button text="Learn more" variant="light"/>

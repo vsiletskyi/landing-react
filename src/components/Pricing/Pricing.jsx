@@ -8,7 +8,7 @@ import styles from './Pricing.module.css'
 
 const Pricing = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='pricing'>
       <FeaturesTitle
         textTop='Pricing Tiers'
         tittle='Fit for all your needs'
