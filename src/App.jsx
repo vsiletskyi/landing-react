@@ -5,9 +5,12 @@ import Features from './components/Features/Features'
 import FeaturesDesign from './components/FeaturesDesign/FeaturesDesign'
 import FeaturesConvenience from './components/FeaturesConvenience/FeaturesConvenience'
 import Pricing from './components/Pricing/Pricing'
+import Questions from './components/Questions/Questions'
+import NewsLetter from './components/NewsLetter/NewsLetter'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 import './App.css'
-import Questions from './components/Questions/Questions'
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
         <FeaturesConvenience />  
         <Pricing />
         <Questions />
+        <NewsLetter />
+        <Contact />
+        <Footer/>
       </div>
     </div>
   )

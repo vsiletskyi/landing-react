@@ -1,0 +1,9 @@
+.container {
+    padding: 96px;
+    display: flex;
+    gap: 32px;
+}
+
+.infoWrap, .formWrap {
+    flex: 1 1 50%;
+}

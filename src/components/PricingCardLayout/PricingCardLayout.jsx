@@ -1,7 +1,7 @@
 import classNames from 'classnames'
 import PropTypes from 'prop-types'
 import Button from '../Button/Button'
-import img from '../../assets/img/check-fill.svg'
+import CardList from '../CardList/CardList'
 
 import styles from './PricingCardLayout.module.css'
 
@@ -20,13 +20,7 @@ const PricingCardLayout = ({title, description, price, cardList, mostPopular}) =
             <p><span>${price}</span>/ month</p>
             <p className={styles.priceDesc}>Billed monthly</p>
         </div>
-        <ul className={styles.cardList}>
-            {cardList.map((item, i)=>{
-                return <li key={i}>
-                    <img src={img} alt="checkImg" /> {item}
-                </li>
-            })}
-        </ul>
+        <CardList cardList={cardList} />
         <div className={styles.btnWrap}>
             {mostPopular ? 
                 <Button text="Buy now" variant="dark" className="big"/>

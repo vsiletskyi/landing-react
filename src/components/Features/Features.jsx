@@ -5,7 +5,7 @@ import styles from './Features.module.css'
 
 const Features = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='features'>
       <FeaturesTitle
         textTop='Premium abstract images'
         tittle='Easy access to top quality images'
